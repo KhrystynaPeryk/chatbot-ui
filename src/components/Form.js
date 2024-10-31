@@ -15,6 +15,7 @@ const Form = () => {
     return (
         <div className="formContainer">
             <form onSubmit={handleSubmit}>
+                <div className="emoji">🤖</div>
                 <h3>Ask me a question</h3>
                 <textarea type="text" value={input} onChange={(e) => setInput(e.target.value)} required rows={3} />
                 <button type='submit'>Ask</button>

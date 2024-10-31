@@ -1,11 +1,9 @@
 .formContainer {
     display: flex;
-    justify-content: center; 
+    justify-content: flex-end; 
     align-items: center; 
     gap: 10em;
     padding: 5em;
-    
-    overflow: auto;
 }
 
 h3 {
@@ -13,16 +11,29 @@ h3 {
     padding-bottom: 20px;
 }
 
+.emoji {
+    margin: auto;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+}
+
 form {
-    flex: 1;
+    position: fixed;
+    top: 15em;
+    left: 5em;
+    
     display: flex;
     flex-direction: column;
+    width: 25em;
+    padding: 2em;
+    border-radius: 5px;
+    background-color: rgb(168, 166, 137);
+
 }
 
 .dialog {
-    flex: 2;
-    height: 600px;
-    overflow: auto;
+    width: 65em;
+    padding-left: 30em;
 }
 
 textarea {
@@ -41,9 +52,9 @@ button {
     display: block;
     margin-top: 20px;
     padding: 1em;
-    border: 1px solid rgb(78, 206, 211);
+    border: 1px solid rgb(160, 211, 78);
     border-radius: 5px;
-    background-color: cadetblue;
+    background-color: rgb(131, 161, 82);
     cursor: pointer;
 }
 
